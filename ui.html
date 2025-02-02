@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Styling</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background: url('/mnt/data/A_modern_and_stylish_landing_page_hero_image_for_a.png') no-repeat center center/cover;
+            width: 80%;
+            max-width: 1000px;
+            height: 500px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            position: relative;
+            color: #fff;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: 20px;
+        }
+
+        .content {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 2;
+        }
+
+        .get-started-button {
+            background-color: #2c2f36; /* Match the file upload button background */
+            color: white; /* Match text color */
+            border: 2px solid #555; /* Match border */
+            padding: 12px 20px; /* Adjust padding */
+            border-radius: 8px; /* Match rounded corners */
+            width: 100%; /* Make it full width like the upload button */
+            text-align: center;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .get-started-button:hover {
+            background-color: #3b3f46; /* Slightly lighter on hover */
+        }
+
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 50px;
+            background-color: #f47569;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #e33535;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Your Personal AI Stylist</h1>
+            <button class="btn" onclick="window.location.href='http://localhost:8511'">Get Started</button>
+        </div>
+    </div>
+</body>
+</html>
+
+
